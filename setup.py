@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="tnalgo",
-    version="1.0.0",
+    version="1.0.2",
     description="A set of algorithmic functions",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -25,12 +25,12 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
     ],
-    packages=["src"],
+    packages=["tnalgo"],
     include_package_data=True,
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "tnalgo=src.__main__:main",
+            "tnalgo=tnalgo.__main__:main",
         ]
     },
 )
