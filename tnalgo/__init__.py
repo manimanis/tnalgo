@@ -1,4 +1,7 @@
-__version__ = "1.0.3"
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+__version__ = "1.0.4"
 
 def alea(a, b):
     """Retourne un entier aléatoire dans l'intervalle [a, b]"""
@@ -96,3 +99,4 @@ def majus(ch):
     if type(ch) == str:
         return ch.upper()
     raise TypeError("ch doit être de type str")
+
